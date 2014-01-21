@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name        = "fluent-plugin-tailpath"
-  gem.version     = "0.0.1"
+  gem.version     = "0.0.2"
   gem.authors     = ["Jacob Wirth"]
   gem.email       = "xthexder@live.com"
   gem.homepage    = "https://github.com/xthexder/fluent-plugin-tailpath"

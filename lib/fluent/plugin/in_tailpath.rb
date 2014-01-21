@@ -93,7 +93,8 @@ module Fluent
           line.chomp!  # remove \n
           time, record = parse_line(line)
           if time && record
-            record['path'] = path
+            record['log_path'] = path
+            record['raw_message'] = line
             es.add(time, record)
           end
         rescue
