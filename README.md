@@ -1,4 +1,4 @@
-# fluent-plugin-tailpath
+# fluent-plugin-tailpath, a plugin for [Fluentd](http://fluentd.org)
 
 Fluentd plugin to tail files and add the file path to the message
 
