@@ -2,6 +2,12 @@
 
 Fluentd plugin to tail files and add the file path to the message
 
+Adds the following fields to log entires:
+```
+log_path - the full path to the source log file (eg. /var/log/nginx/access.log)
+raw_message - the full un-modified log message
+```
+
 ## Installation
 
 Use RubyGems:
